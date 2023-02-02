@@ -10,13 +10,21 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.71.2"
+    "@voximplant/react-native-foreground-service": "^3.0.2",
+    "buffer": "^6.0.3",
+    "react": "^18.2.0",
+    "react-native": "^0.71.2",
+    "react-native-audio-record": "^0.2.2",
+    "react-native-base64": "^0.2.1",
+    "react-native-foreground-service-android": "^1.0.18",
+    "react-native-reanimated": "^2.14.4",
+    "react-native-redash": "^18.1.0",
+    "react-native-sound-level": "^1.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
-    "@babel/runtime": "^7.20.0",
+    "@babel/runtime": "^7.20.13",
     "@react-native-community/eslint-config": "^3.2.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
